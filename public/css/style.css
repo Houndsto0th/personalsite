@@ -6,8 +6,17 @@
 body, html
 {
 	background-color: #EDEDED ;
-	font-family: "BrandonMed";
+	font-family: "BrandonLight";
 }
+
+a:link {
+	color: #d32f2f;
+}
+
+a:visited {
+	color: #d32f2f;
+}
+
 
 .intro
 {
@@ -34,6 +43,10 @@ body, html
 
 
 .about {
+	font-family: "Brandonlight";
+}
+
+.about .collapsible-header {
 	font-family: "BrandonMed";
 }
 
@@ -44,12 +57,14 @@ body, html
 
 .about h5
 {
+	font-family: "BrandonMed";
 	text-align: center;
 	margin-bottom: 15px;
 }
 
 .about h6
 {
+	font-family: "BrandonMed";
 	text-align: center;
 	margin-bottom: 45px;
 }
@@ -151,6 +166,11 @@ body, html
 footer
 {
 	padding-top: 0px;
+}
+
+.text-muted {
+	font-family: "BrandonLight";
+	font-size: .95em;
 }
 
 /* Inky Buttonz */
@@ -431,6 +451,6 @@ footer
 
 @font-face {
 	font-family: 'BrandonLight';
-	src: url('/font/Brandon_Complete/Brandon_med.otf') format('opentype');
+	src: url('/font/Brandon_Complete/Brandon_light.otf') format('opentype');
 	src: ;
 }

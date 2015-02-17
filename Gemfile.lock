@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    font_assets (0.1.11)
+      rack
+    rack (1.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  font_assets
+  rack

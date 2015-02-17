@@ -1,0 +1,387 @@
+/* Accent Color: #d32f2f (red darken-2) */
+/* Paper Color: #efebe9 (brown lighten-5)*/
+
+
+
+body, html
+{
+	background-color: #EDEDED ;
+	font-family: "BrandonMed";
+}
+
+.intro
+{
+	text-align: center;
+	padding-top: 13%;
+	padding-bottom: 13%;
+	margin-bottom: 50px;
+}
+
+.intro h1
+{
+	font-family: "againts"
+}
+
+.intro h5
+{
+	font-family: "BrandonMed";
+	background-color: rgba(248, 248, 248, 0.4);
+	padding: 10px;
+	color: #333333;
+	display: block;
+	font-size: 1.2rem;
+}
+
+
+.about {
+	font-family: "BrandonMed";
+}
+
+.about .col
+{
+	margin-bottom: 24px;
+}
+
+.about h5
+{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.about h6
+{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.about hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.about .card
+{
+	text-align: center;
+}
+
+.about .card img
+{
+	margin-bottom: 15px;
+}
+
+.portfolio {
+	font-family: "BrandonMed";
+}
+
+.portfolio .col
+{
+	margin-bottom: 24px;
+}
+
+.portfolio h5
+{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.portfolio h6
+{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.portfolio hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+	clear: both;
+	text-align: center;
+}
+
+.portfolio img
+{
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
+
+.contact .col
+{
+	margin-bottom: 24px;
+}
+
+.contact h5
+{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.contact h6
+{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.contact hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.contact .contact-holder
+{
+	text-align: center;
+}
+
+.contact .contact-holder h6
+{
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.contact .contact-holder p
+{
+	margin-bottom: 30px;
+}
+footer
+{
+	padding-top: 0px;
+}
+
+/* Inky Buttonz */
+.btn-ink {
+	width: 4em;
+	height: 4em;
+	background-color: #d32f2f;
+	color: #ffffff;
+	box-shadow: 0 0 4px
+	rgba(0,0,0,0.3);
+	border-radius: 50%;
+	overflow: hidden;
+	transform: translateZ(0) scale(1);
+	transition: all .5s ease;
+	margin: auto;
+	display:inline-block;
+}
+
+
+.btn-ink:hover {
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+
+}
+
+.btn-ink:active {
+	transform: scale(1.15, 1.15);
+}
+
+.btn-ink:focus {
+	outline: 0;
+	border:none;
+	color: rgba(0, 0, 0, 0);
+}
+
+.btn-ink > span {
+	display: block;
+	position: fixed;
+	width: 2em;
+	height: 2em;
+	transition: transform 0.1s ease;
+	overflow: hidden;
+	margin: 25%;
+}
+
+.btn-ink > span > span {
+	display: block;
+	background-color: #efebe9;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2em;
+	height: 2em;
+	transition: all 0.3s ease;
+	border: 1px solid transparent;
+}
+
+.btn-ink .hidemodal {
+	border-radius: 0;
+}
+
+/* Play Button */
+
+.btn-ink.play > span {
+	transform: translate(67%,0) scale(2.1,1.2);
+}
+
+.btn-ink.play > span > span {
+	transform: rotate(-45deg) translate(-50%, -50%) scale(1,1);
+}
+
+/* Pause Button */
+
+.btn-ink.pause > span > span {
+	transform: scale(0.4,1) translate(-74%, 0);
+}
+
+.btn-ink.pause > span > span.s3 {
+	transform: scale(0.4,1) translate(75%, 0);
+}
+
+/* Stop Button */
+
+.btn-ink.stop > span {
+	transform: scale(1,1);
+}
+
+/* Plus Button */
+
+.btn-ink.plus > span > span {
+	transform: scale(0.3,1);
+}
+
+.btn-ink.plus > span > span.s3 {
+	transform: rotate(90deg) scale(0.3,1);
+}
+
+/* Exclamation */
+.btn-ink.exclaim > span {
+	transform: scale(1.3);
+}
+
+.btn-ink.exclaim > span > span {
+	transform: scale(0.3,.8) translate(0, -30%);
+}
+
+.btn-ink.exclaim > span > span.s3 {
+	border-radius: 50%;
+	transform: scale(0.3,.3) translate(0, 116%);
+}
+
+/* 'X' Button */
+.btn-ink.x > span > span {
+	transform: rotate(45deg) scale(0.4,1);
+}
+
+.btn-ink.x > span > span.s3 {
+	transform: rotate(135deg) scale(0.4,1);
+}
+
+/* Menu button */
+.btn-ink.menu > span > span.s1 {
+	transform: rotate(90deg) scale(0.15,1) translate(-250%, 0);
+}
+.btn-ink.menu > span > span.s2 {
+	transform: rotate(90deg) scale(0.15,1) translate(0, 0);
+}
+
+.btn-ink.menu > span > span.s3 {
+	transform: rotate(90deg) scale(0.15,1) translate(250%, 0);
+}
+
+/* Minus Button */
+
+.btn-ink.minus > span > span {
+	transform: scale(1, .4)
+}
+
+/* picture corners */
+.btn-ink.picture > span > span {
+	transform: scale(0.4,1);
+
+}
+
+.btn-ink.picture > span > span.s1 {
+	transform: scale(1,1);
+	background-color: #efebe9;
+}
+
+.btn-ink.picture > span > span.s2 {
+	transform: scale(0.4,1);
+	background-color: #d32f2f;
+}
+
+
+.btn-ink.picture > span > span.s3 {
+	transform: rotate(90deg) scale(0.4,1);
+	background-color: #d32f2f;
+
+}
+
+.btn-ink.picture > span > span.s4 {
+	transform: rotate(90deg) scale(0.80,0.80);
+	background-color: #d32f2f;
+}
+
+
+
+.hidden {
+	display: none;
+}
+
+.modalactive {
+	position: absolute;
+
+}
+.profile {
+	background-repeat: no-repeat;
+	background-image: url('/images/Profile.jpg');
+}
+
+.work {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.work p {
+	font-size: 2px;
+	padding: .5px;
+}
+
+.work1 {
+	background-image: url('/images/gCampScreen.jpg');
+}
+
+.work2 {
+	background-image: url('/images/vindiScreen.jpg');
+}
+
+.work3 {
+	background-image: url('/images/listenScreen.jpg');
+}
+
+
+
+@font-face {
+	font-family: 'BrandonBlk';
+	src: url('/font/Brandon_Complete/Brandon_blk.otf') format('opentype');
+	src: ;
+}
+
+@font-face {
+	font-family: 'H74WCH';
+	src: url('/font/H74WCH__.TTF') format('opentype');
+	src: ;
+}
+
+@font-face {
+	font-family: 'neutrabold';
+	src: url('/font/Neutra_Text/NeutraText-Bold.otf') format('opentype');
+	src: ;
+}
+
+@font-face {
+	font-family: 'BrandonMed';
+	src: url('/font/Brandon_Complete/Brandon_med.otf') format('opentype');
+	src: ;
+}
+
+@font-face {
+	font-family: 'againts';
+	src: url('/font/againts.otf') format('opentype');
+	src: ;
+}

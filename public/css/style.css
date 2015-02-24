@@ -1,4 +1,4 @@
-/* Accent Color: #d32f2f (red darken-2) */
+/* Accent Color: # (red darken-2) */
 
 
 
@@ -39,6 +39,13 @@ a:visited {
 	color: #333333;
 	display: block;
 	font-size: 1.2rem;
+	width: 25%;
+	margin: 0 auto;
+}
+
+.intro a
+{
+	margin: 10px auto;
 }
 
 

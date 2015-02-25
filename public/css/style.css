@@ -199,6 +199,7 @@ footer
 
 .btn-ink:hover {
 	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	transform: scale(1.25);
 
 }
 
@@ -399,29 +400,6 @@ footer
 .profile {
 	background-repeat: no-repeat;
 	background-image: url('/images/Profile.jpg');
-}
-
-.work {
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
-.work p {
-	font-size: 2px;
-	padding: .5px;
-}
-
-.work1 {
-	background-image: url('/images/gCampScreen.jpg');
-}
-
-.work2 {
-	background-image: url('/images/vindiScreen.jpg');
-}
-
-.work3 {
-	background-image: url('/images/listenScreen.jpg');
 }
 
 

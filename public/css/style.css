@@ -477,6 +477,7 @@ footer
 .profile {
 	background-repeat: no-repeat;
 	background-image: url('/images/Profile.jpg');
+	background-size: cover;
 }
 
 

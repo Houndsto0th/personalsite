@@ -28,7 +28,8 @@ a:visited {
 
 .intro h1
 {
-	font-family: "ssf4"
+	font-family: "ssf4";
+	font-size: 6.2rem;
 }
 
 .intro h5

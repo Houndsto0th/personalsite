@@ -35,7 +35,7 @@ a:visited {
 .intro h5
 {
 	font-family: "BrandonMed";
-	background-color: rgba(248, 248, 248, 0.4);
+	background-color: rgba(249, 249, 249, 1);
 	padding: 10px;
 	color: #333333;
 	display: block;
@@ -185,7 +185,7 @@ footer
 .btn-ink {
 	width: 4em;
 	height: 4em;
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 	color: #ffffff;
 	box-shadow: 0 0 4px
 	rgba(0,0,0,0.3);
@@ -226,7 +226,7 @@ footer
 
 .btn-ink > span > span {
 	display: block;
-	background-color: #efebe9;
+	background-color: #eee8e8;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -330,25 +330,25 @@ footer
 
 .btn-ink.picture > span > span.s2 {
 	transform: scale(0.4,1);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 }
 
 
 .btn-ink.picture > span > span.s3 {
 	transform: rotate(90deg) scale(0.4,1);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 
 }
 
 .btn-ink.picture > span > span.s4 {
 	transform: rotate(90deg) scale(0.80,0.80);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 	border-radius: 10%;
 }
 
 .btn-ink.picture > span > span.s5 {
 	transform: rotate(90deg) scale(0.80,0.80);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 	border-radius: 10%;
 }
 
@@ -368,19 +368,19 @@ footer
 
 .btn-ink.link > span > span.s2 {
 	transform: scale(0.4,1);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 }
 
 
 .btn-ink.link > span > span.s3 {
 	transform: rotate(90deg) scale(0.4,1);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 
 }
 
 .btn-ink.link > span > span.s4 {
 	transform: rotate(90deg) scale(0.80,0.80);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 	border-radius: 10%;
 }
 
@@ -405,25 +405,25 @@ footer
 
 .btn-ink.download > span > span.s2 {
 	transform: scale(0.4,1);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 }
 
 
 .btn-ink.download > span > span.s3 {
 	transform: rotate(90deg) scale(0.4,1);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 
 }
 
 .btn-ink.download > span > span.s4 {
 	transform: rotate(90deg) scale(0.80,0.80);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 	border-radius: 10%;
 }
 
 .btn-ink.download > span > span.s5 {
 	transform: rotate(90deg) scale(0.80,0.80);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 	border-radius: 10%;
 }
 
@@ -438,24 +438,24 @@ footer
 
 .btn-ink.downloadarrow > span > span.s1 {
 	transform: scale(1,1);
-	background-color: #efebe9;
+	background-color: #eee8e8;
 }
 
 .btn-ink.downloadarrow > span > span.s2 {
 	transform: scale(0.4,1);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 }
 
 
 .btn-ink.downloadarrow > span > span.s3 {
 	transform: rotate(90deg) scale(0.4,1);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 
 }
 
 .btn-ink.downloadarrow > span > span.s4 {
 	transform: rotate(90deg) scale(0.80,0.80);
-	background-color: #d32f2f;
+	background-color: #7d7d7d;
 	border-radius: 10%;
 }
 
